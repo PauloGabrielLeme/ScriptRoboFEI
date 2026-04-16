@@ -28,7 +28,7 @@ apt install ros-jazzy-ros-base -y
 
 # Instala o VS Code
 
-apt-get install wget gpg
+apt-get install wget gpg -y
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 install -D -o root -g root -m 644 microsoft.gpg /usr/share/keyrings/microsoft.gpg
 rm -f microsoft.gpg
@@ -40,4 +40,4 @@ echo 'Components: main' >> /etc/apt/sources.list.d/microsoft.sources
 echo 'Architectures: amd64,arm64,armhf' >> /etc/apt/sources.list.d/microsoft.sources
 echo 'Signed-By: /usr/share/keyrings/microsoft.gpg' >> /etc/apt/sources.list.d/microsoft.sources
 
-apt install apt-transport-https && apt update && apt install code 
+apt install apt-transport-https -y && apt update -y && apt install code -y 
