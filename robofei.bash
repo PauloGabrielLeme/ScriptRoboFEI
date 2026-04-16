@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-if (( EUID != 0 )); hten
+if (( EUID != 0 )); then
   echo 'Erro: Esse script deve ser executado como root'
   echo 'Execute este script com sudo'
   echo 'sudo ./ros2.bash'
@@ -33,11 +33,11 @@ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > mi
 install -D -o root -g root -m 644 microsoft.gpg /usr/share/keyrings/microsoft.gpg
 rm -f microsoft.gpg
 
-echo 'Types: deb' >> /etc/apt/sources.list.d
-echo 'URIs: https://packages.microsoft.com/repos/code' >> /etc/apt/sources.list.d
-echo 'Suites: stable' >> /etc/apt/sources.list.d
-echo 'Components: main' >> /etc/apt/sources.list.d
-echo 'Architectures: amd64,arm64,armhf' >> /etc/apt/sources.list.d
-echo 'Signed-By: /usr/share/keyrings/microsoft.gpg' >> /etc/apt/sources.list.d
+echo 'Types: deb' >> /etc/apt/sources.list.d/microsoft.sources
+echo 'URIs: https://packages.microsoft.com/repos/code' >> /etc/apt/sources.list.d/microsoft.sources
+echo 'Suites: stable' >> /etc/apt/sources.list.d/microsoft.sources
+echo 'Components: main' >> /etc/apt/sources.list.d/microsoft.sources
+echo 'Architectures: amd64,arm64,armhf' >> /etc/apt/sources.list.d/microsoft.sources
+echo 'Signed-By: /usr/share/keyrings/microsoft.gpg' >> /etc/apt/sources.list.d/microsoft.sources
 
 apt install apt-transport-https && apt update && apt install code 
