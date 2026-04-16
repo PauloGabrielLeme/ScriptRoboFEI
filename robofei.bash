@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 
 if (( EUID != 0 )); then
   echo 'Erro: Esse script deve ser executado como root'
