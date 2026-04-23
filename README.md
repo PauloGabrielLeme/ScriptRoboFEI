@@ -8,7 +8,7 @@ necessárias para programação no projeto Robô FEI
 - Python
 - ROS 2 Jazzy Jalisco
 
-### Script pode ser executado nas seguintes distribuições Linux:
+### O script pode ser executado nas seguintes distribuições Linux:
 - Ubuntu
 - Debian (Stable)
 - PopOS
