@@ -3,7 +3,7 @@
 if (( EUID != 0 )); then
   echo 'Erro: Esse script deve ser executado como root'
   echo 'Execute este script com sudo'
-  echo 'sudo ./ros2.bash'
+  echo 'sudo ./robofei.bash'
   exit 1
 fi
 
