@@ -4,9 +4,9 @@ Este pequeno script feito em bash tem o objetivo de automatizar a instalção da
 necessárias para programação no projeto Robô FEI
 
 ### Programas instlados com este script:
-- VScode
 - Python
 - ROS 2 Jazzy Jalisco
+- VScode
 
 ### O script pode ser executado nas seguintes distribuições Linux:
 - Ubuntu
