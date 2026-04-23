@@ -17,6 +17,11 @@ necessárias para programação no projeto Robô FEI
 
 ### Instruções
 
+### Tenha Certeza Que o Git Está Instalado
+```ps1
+sudo apt install git
+```
+
 ##### Clone O Repositório
 ```ps1
 git clone https://github.com/PauloGabrielLeme/ScriptRoboFEI/
