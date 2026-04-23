@@ -17,7 +17,7 @@ necessárias para programação no projeto Robô FEI
 
 ### Instruções
 
-### Tenha Certeza Que o Git Está Instalado
+##### Tenha Certeza Que o Git Está Instalado
 ```ps1
 sudo apt install git
 ```
