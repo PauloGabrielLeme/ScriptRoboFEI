@@ -3,7 +3,7 @@
 Este pequeno script feito em bash tem o objetivo de automatizar a instalção das dependências
 necessárias para programação no projeto Robô FEI
 
-### Programas instlados com este script:
+### Programas instalados com este script:
 - Python
 - ROS 2 Jazzy Jalisco
 - VScode
