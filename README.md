@@ -12,6 +12,7 @@ necessárias para programação no projeto Robô FEI
 - Ubuntu
 - Debian (Stable)
 - PopOS
+- Linux Mint
 - PikaOS
 - E outros derivados do Ubuntu e do Debian.
 
